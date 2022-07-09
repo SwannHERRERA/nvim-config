@@ -23,6 +23,17 @@ require("packer").startup({
         use { "preservim/tagbar" } 
         use { "preservim/nerdtree" }
         use { "github/copilot.vim" }
+        use { "glepnir/dashboard-nvim" }
+        use { "junegunn/fzf" }
+        use { "tpope/vim-fugitive" }
+        use { "tpope/vim-repeat" }
+        use { "tpope/vim-surround" }
+        use { "tpope/vim-commentary" }
+        use { "tpope/vim-rhubarb" }
+        use { "tpope/vim-eunuch" }
+        use {'jdhao/better-escape.vim', event = 'InsertEnter'}
+        use { "vim-airline/vim-airline" }
+        use { "vim-airline/vim-airline-themes" }
     end,
     config = {
         max_jobs = 16,
