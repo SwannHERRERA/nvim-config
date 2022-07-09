@@ -34,6 +34,14 @@ require("packer").startup({
         use {'jdhao/better-escape.vim', event = 'InsertEnter'}
         use { "vim-airline/vim-airline" }
         use { "vim-airline/vim-airline-themes" }
+        use { "neovim/nvim-lspconfig" }
+        use { "williamboman/nvim-lsp-installer" }
+        use { 'hrsh7th/cmp-nvim-lsp' }
+        use { 'hrsh7th/cmp-buffer' }
+        use { 'hrsh7th/cmp-path' }
+        use { 'hrsh7th/cmp-cmdline' }
+        use { 'hrsh7th/nvim-cmp' }
+        use { "nvim-treesitter/nvim-treesitter" }
     end,
     config = {
         max_jobs = 16,

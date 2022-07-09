@@ -24,6 +24,8 @@ let g:Lf_WildIgnore = {
 
 let s:plugin_files = [
     \ 'nerdtree.vim',
+    \ 'nvim-lspconfig.lua',
+    \ 'treesitter.lua',
     \ ]
 
 for s:filename in s:plugin_files

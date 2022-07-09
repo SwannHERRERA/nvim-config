@@ -26,4 +26,3 @@ function! s:restore_cursor() abort
   silent! normal `y
   silent! delmarks y
 endfunction
-
