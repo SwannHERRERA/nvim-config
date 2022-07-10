@@ -43,6 +43,7 @@ require("packer").startup({
         use { 'hrsh7th/nvim-cmp' }
         use { 'andymass/vim-matchup' }
         use { "nvim-treesitter/nvim-treesitter" }
+        use { 'simnalamburt/vim-mundo' }
     end,
     config = {
         max_jobs = 16,
