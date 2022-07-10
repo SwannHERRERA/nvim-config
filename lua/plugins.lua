@@ -44,6 +44,11 @@ require("packer").startup({
         use { 'andymass/vim-matchup' }
         use { "nvim-treesitter/nvim-treesitter" }
         use { 'simnalamburt/vim-mundo' }
+        use {
+            'nvim-telescope/telescope.nvim',
+            requires = { {'nvim-lua/plenary.nvim'} }
+        }
+        use {   use 'nvim-telescope/telescope-media-files.nvim' }
     end,
     config = {
         max_jobs = 16,
@@ -56,3 +61,5 @@ if not status then
   vim.notify("Error requiring packer_compiled.lua: run PackerSync to fix!")
 end
 
+-- Import config specfific
+require 'keymaps/telescope'

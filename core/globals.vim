@@ -19,10 +19,10 @@ else
   echoerr 'Python 3 executable not found! You must install Python 3 and set its PATH correctly!'
 endif
 
-" Custom mapping <leader> (see `:h mapleader` for more info)
-let g:mapleader = ','
-
 " Enable highlighting for lua HERE doc inside vim script
+" remap leader key to Space
+let mapleader = " "
+
 let g:vimsyn_embed = 'l'
 
 " Use English as main language
