@@ -41,6 +41,7 @@ require("packer").startup({
         use { 'hrsh7th/cmp-path' }
         use { 'hrsh7th/cmp-cmdline' }
         use { 'hrsh7th/nvim-cmp' }
+        use { 'andymass/vim-matchup' }
         use { "nvim-treesitter/nvim-treesitter" }
     end,
     config = {
