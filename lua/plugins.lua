@@ -63,3 +63,4 @@ end
 
 -- Import config specfific
 require 'keymaps/telescope'
+require 'keymaps/tagbar'
