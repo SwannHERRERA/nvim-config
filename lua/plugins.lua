@@ -52,6 +52,15 @@ require("packer").startup({
             requires = { {'nvim-lua/plenary.nvim'} }
         }
         use { 'nvim-telescope/telescope-media-files.nvim' }
+        use {
+            'pwntester/octo.nvim',
+            requires = {
+                'nvim-lua/plenary.nvim',
+                'nvim-telescope/telescope.nvim',
+                'kyazdani42/nvim-web-devicons',
+            },
+        }
+        use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
     end,
     config = {
         max_jobs = 16,

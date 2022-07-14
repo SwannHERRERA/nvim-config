@@ -28,6 +28,8 @@ let s:plugin_files = [
     \ 'treesitter.lua',
     \ 'telescope.lua',
     \ 'nvim-lsputils.lua',
+    \ 'octo.lua',
+    \ 'diffview.lua',
     \ ]
 
 for s:filename in s:plugin_files
