@@ -44,11 +44,14 @@ require("packer").startup({
         use { 'andymass/vim-matchup' }
         use { "nvim-treesitter/nvim-treesitter" }
         use { 'simnalamburt/vim-mundo' }
+        use { "RishabhRD/popfix" }
+        use { "RishabhRD/nvim-lsputils" }
+        use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
         use {
             'nvim-telescope/telescope.nvim',
             requires = { {'nvim-lua/plenary.nvim'} }
         }
-        use {   use 'nvim-telescope/telescope-media-files.nvim' }
+        use { 'nvim-telescope/telescope-media-files.nvim' }
     end,
     config = {
         max_jobs = 16,

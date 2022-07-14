@@ -27,6 +27,7 @@ let s:plugin_files = [
     \ 'nvim-lspconfig.lua',
     \ 'treesitter.lua',
     \ 'telescope.lua',
+    \ 'nvim-lsputils.lua',
     \ ]
 
 for s:filename in s:plugin_files
