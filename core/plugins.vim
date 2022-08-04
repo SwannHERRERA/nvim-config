@@ -30,6 +30,7 @@ let s:plugin_files = [
     \ 'nvim-lsputils.lua',
     \ 'octo.lua',
     \ 'diffview.lua',
+    \ 'flutter-tools.lua',
     \ ]
 
 for s:filename in s:plugin_files

@@ -135,9 +135,20 @@ require('lspconfig')['cssls'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
 }
-
 require('lspconfig')['html'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
 }
+require('lspconfig')['zls'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+}
+require('lspconfig')['hls'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+}
 
+require('lspconfig')['intelephense'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+}
