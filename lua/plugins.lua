@@ -61,6 +61,7 @@ require("packer").startup({
             },
         }
         use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
+        use { 'airblade/vim-gitgutter' }
         use {'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim'}
         use { 'christoomey/vim-tmux-navigator' }
     end,
