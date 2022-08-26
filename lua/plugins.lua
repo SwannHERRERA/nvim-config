@@ -64,6 +64,13 @@ require("packer").startup({
         use { 'airblade/vim-gitgutter' }
         use {'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim'}
         use { 'christoomey/vim-tmux-navigator' }
+        use { "williamboman/mason.nvim" }
+        use { 
+            "windwp/nvim-autopairs",
+            config = function() require("nvim-autopairs").setup {} end
+        }
+        use { "mg979/vim-visual-multi" }
+        use { "rafamadriz/friendly-snippets" }
     end,
     config = {
         max_jobs = 16,

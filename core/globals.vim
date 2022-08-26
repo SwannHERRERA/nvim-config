@@ -13,7 +13,7 @@ if executable('python')
    if g:is_win
     let g:python3_host_prog=substitute(exepath('python'), '.exe$', '', 'g')
   elseif g:is_linux || g:is_mac
-    let g:python3_host_prog=exepath('python')
+    let g:python3_host_prog=exepath('p/Users/swann/.pyenv/shims/python')
   endif
 else
   echoerr 'Python 3 executable not found! You must install Python 3 and set its PATH correctly!'
